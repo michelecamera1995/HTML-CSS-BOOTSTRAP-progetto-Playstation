@@ -1,4 +1,66 @@
 
+/* General  */
+
+
+/* Button Custom */
+
+.buttonround {
+    padding: 1.0em 1.5em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+   }
+   
+   .buttonround:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+   }
+   
+   .buttonround:active {
+    transform: translateY(-1px);
+   }
+
+   .bt-bk-wh{
+    background-color: white;
+    color: black;
+   }
+
+   .bt-bk-or {
+    background-color: #cd3d0f;
+    color: white;
+   }
+
+   /* Content */
+
 .img-logo {
     width: 110px;
   }
+
+#jumbo {
+    margin-top: 90px;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center top;
+ }
+
+ #jumbotext {
+    padding-top: 350px;
+    padding-bottom: 70px;
+ }
+
+ #jumbotext h2{
+    font-size: 2.1rem;
+ }
+
+#jumbotext p{
+    font-weight: bold;
+    font-size: 0.9rem;
+ }
