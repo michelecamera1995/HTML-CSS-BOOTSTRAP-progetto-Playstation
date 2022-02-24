@@ -1,6 +1,9 @@
 
 /* General  */
 
+.rowgap{
+    row-gap: 12px;
+ }
 
 /* Button Custom */
 
@@ -8,7 +11,6 @@
 padding: 1.0em 1.5em;
 font-size: 12px;
 text-transform: uppercase;
-letter-spacing: 2.5px;
 font-weight: bold;
 border: none;
 border-radius: 45px;
@@ -39,6 +41,11 @@ background-color: #cd3d0f;
 color: white;
 }
 
+.bt-bk-bl {
+    background-color: blue;
+    color: white;
+    }
+
 /* Content */
 
 .img-logo {
@@ -64,3 +71,35 @@ color: white;
     font-weight: bold;
     font-size: 0.9rem;
  }
+
+ .txt-present-ps5 {
+    padding-top: 60px;
+ }
+
+ .txt-present-ps5 span{
+    color:blue;
+    font-size: 0.8rem;
+ }
+
+ .txt-present-ps5 p{
+    color:lightslategray;
+    font-size: 0.9rem;
+    font-weight: bold;
+ }
+
+ .accessorycard{
+    color:lightslategray;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+ }
+
+ .accessorycard:hover{
+    border-bottom: 0.5px solid blue;
+    filter: opacity(75%);
+ }
+
+
+
+
+
