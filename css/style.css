@@ -13,6 +13,10 @@ body{
    background-color: #1f1f1f;
 }
 
+.bg-grey{
+   background-color: #bebcbb;
+}
+
 /* Button Custom */
 
 .buttonround {
