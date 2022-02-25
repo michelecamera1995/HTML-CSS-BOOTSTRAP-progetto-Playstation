@@ -17,6 +17,11 @@ body{
    background-color: #bebcbb;
 }
 
+.bg-blue{
+   background-color: #00439c;
+}
+
+
 /* Button Custom */
 
 .buttonround {
@@ -143,5 +148,23 @@ color: white;
    margin: 5%;
 }
 
+* footer{
+   padding-top: 5%;
+   padding-bottom: 5%;
+   color: white;
+   font-size: 0.9rem;
+   font-weight: bold;
+}
 
+.globe{
+   width: 15px;
+}
+
+.copytext{
+   font-size: 0.7rem;
+}
+
+.imgwhite{
+   width: 200px;
+}
 
