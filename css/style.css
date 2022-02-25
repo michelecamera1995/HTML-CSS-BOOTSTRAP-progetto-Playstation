@@ -80,16 +80,16 @@ color: white;
     font-size: 0.9rem;
  }
 
- .txt-present-ps5 {
+ .txt-present {
     padding-top: 60px;
  }
 
- .txt-present-ps5 span{
+ .txt-present span{
     color:blue;
     font-size: 0.8rem;
  }
 
- .txt-present-ps5 p{
+ .txt-present p{
     color:lightslategray;
     font-size: 0.9rem;
     font-weight: bold;
