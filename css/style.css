@@ -43,9 +43,14 @@ transform: translateY(-7px);
 transform: translateY(-1px);
 }
 
-.bt-bk-wh{
+.bt-bk-bk{
 background-color: black;
 color: white;
+}
+
+.bt-bk-wh{
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
 }
 
 .bt-bk-or {
