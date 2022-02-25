@@ -58,6 +58,11 @@ background-color: blue;
 color: white;
 }
 
+.bt-bk-gr {
+   background-color: grey;
+   color: blue;
+   }
+
 /* Content */
 
 .img-logo {
