@@ -77,6 +77,12 @@ color: white;
     width: 110px;
   }
 
+.navmen{
+   position: absolute;
+   top: 74px;
+   left: 0;
+}
+
 .gamethumb:hover{
    transform: translateY(-7px);
  }
