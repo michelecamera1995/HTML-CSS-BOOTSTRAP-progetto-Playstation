@@ -38,10 +38,8 @@ outline: none;
 }
    
 .buttonround:hover {
-background-color: #2EE59D;
-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
 color: #fff;
-transform: translateY(-7px);
+transform: translateY(-2px);
 }
    
 .buttonround:active {
@@ -168,3 +166,9 @@ color: white;
    width: 200px;
 }
 
+@media all and (min-width: 1200px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
